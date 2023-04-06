@@ -7,7 +7,9 @@
     "skipLibCheck": true,
     "strict": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
     "types": ["node"],
     "baseUrl": ".",
     "paths": {
@@ -17,11 +19,11 @@
     "lib": ["ESNext", "dom", "dom.iterable"]
   },
   "include": [
-    "src/**/*.vue",
     "src/**/*.ts",
     "src/**/*.tsx",
     "types/**/*.d.ts",
-    "../../types/**/*.d.ts"
+    "../../types/**/*.d.ts",
+    "./setupTests.ts"
   ],
   "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }
