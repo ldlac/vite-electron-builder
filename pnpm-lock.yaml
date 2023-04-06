@@ -15,7 +15,6 @@ specifiers:
   eslint: 8.37.0
   eslint-plugin-react: ^7.32.2
   eslint-plugin-react-hooks: ^4.6.0
-  happy-dom: 9.1.7
   jsdom: ^21.1.1
   nano-staged: 0.8.0
   playwright: 1.32.2
@@ -47,7 +46,6 @@ devDependencies:
   eslint: 8.37.0
   eslint-plugin-react: 7.32.2_eslint@8.37.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.37.0
-  happy-dom: 9.1.7
   jsdom: 21.1.1
   nano-staged: 0.8.0
   playwright: 1.32.2
@@ -59,7 +57,7 @@ devDependencies:
   unplugin-auto-expose: 0.0.4
   vite: 4.2.1_@types+node@18.15.11
   vite-plugin-svgr: 2.4.0_vite@4.2.1
-  vitest: 0.29.8_dsqncv7evi7iymye33zndi4p7a
+  vitest: 0.29.8_idq7pdrarxcllgbdih7wc4sooa
   vitest-dom: 0.0.4_vitest@0.29.8
 
 packages:
@@ -1807,10 +1805,6 @@ packages:
       which: 2.0.2
     dev: true
 
-  /css.escape/1.5.1:
-    resolution: {integrity: sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==}
-    dev: true
-
   /cssstyle/3.0.0:
     resolution: {integrity: sha512-N4u2ABATi3Qplzf0hWbVCdjenim8F3ojEXpBDF5hBpjzW182MjNGLqfmQ0SkSPeQ+V86ZXgeH8aXj6kayd4jgg==}
     engines: {node: '>=14'}
@@ -2743,17 +2737,6 @@ packages:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
-  /happy-dom/9.1.7:
-    resolution: {integrity: sha512-tLkzW0w9EclIsV75hlCFStJa7CYSEUe+OVU8vK+3wzSvzFeXrGnCujuMcYQAPUXDl1CXoQ2ySaTZcqt3ZBJbSw==}
-    dependencies:
-      css.escape: 1.5.1
-      he: 1.2.0
-      iconv-lite: 0.6.3
-      webidl-conversions: 7.0.0
-      whatwg-encoding: 2.0.0
-      whatwg-mimetype: 3.0.0
-    dev: true
-
   /has-bigints/1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
     dev: true
@@ -2796,11 +2779,6 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
-    dev: true
-
-  /he/1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
     dev: true
 
   /hosted-git-info/4.1.0:
@@ -4616,10 +4594,10 @@ packages:
       dom-accessibility-api: 0.5.16
       lodash-es: 4.17.21
       redent: 3.0.0
-      vitest: 0.29.8_dsqncv7evi7iymye33zndi4p7a
+      vitest: 0.29.8_idq7pdrarxcllgbdih7wc4sooa
     dev: true
 
-  /vitest/0.29.8_dsqncv7evi7iymye33zndi4p7a:
+  /vitest/0.29.8_idq7pdrarxcllgbdih7wc4sooa:
     resolution: {integrity: sha512-JIAVi2GK5cvA6awGpH0HvH/gEG9PZ0a/WoxdiV3PmqK+3CjQMf8c+J/Vhv4mdZ2nRyXFw66sAg6qz7VNkaHfDQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -4662,7 +4640,6 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 9.1.7
       jsdom: 21.1.1
       local-pkg: 0.4.3
       pathe: 1.1.0
